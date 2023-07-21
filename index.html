@@ -1,16 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap w/ Parcel</title>
-    <link rel="stylesheet" href="scss/styles.scss">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Itsept.</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!-- Inject CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Inject Javascript -->
+    <script type="module" src="js/bootstrap.js"></script>
     <script type="module" src="js/main.js"></script>
   </head>
   <body>
-    <div class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and Parcel!</h1>
-      <button class="btn btn-primary">Primary button</button>
+    <div class="container">
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg bg-transparent mt-3">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="ITSEPT." />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Experience</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End Navigation Bar -->
+
+      <!-- Header -->
+      <div class="row align-items-center">
+        <div class="col">
+          <!-- Hi, yang disana
+            Saya Septian.
+            Selamat datang di portofolio kreatif saya! Temukan karya-karya penuh semangat dan inspiratif saya. Mari berkolaborasi untuk mewujudkan proyek kreatif Anda! -->
+          <h2 class="">Hi there</h2>
+          <h1 class="mb-3">I'm Septian.</h1>
+          <p class="">
+            Welcome to my creative portfolio, Discover my passionate and
+            inspiring works. Let's collaborate to realize your creative project!
+          </p>
+          <div class="mt-5">
+            <button type="button" class="btn btn-success me-1">Hire me</button>
+            <button type="button" class="btn btn-success ms-1">Get CV</button>
+          </div>
+        </div>
+        <div class="col">
+          <img class="home-img" src="images/about.jpg" alt="About" />
+        </div>
+      </div>
+      <!-- End Header -->
     </div>
   </body>
 </html>
