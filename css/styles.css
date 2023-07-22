@@ -7,9 +7,14 @@
   --font-color: #ffffff;
 }
 
-body {
+* {
   font-family: "Poppins", sans-serif;
 }
+
+body {
+  background-color: #ffffff;
+}
+
 
 .navbar-brand img {
   height: 3rem;
