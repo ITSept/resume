@@ -1,5 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
+.img-404 {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.home-content {
+  text-align: left;
+}
+
+.home-content h3 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.home-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.home-content p {
+  font-size: 16px;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.experience .row {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio .row {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.skills .row {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.contact .row {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* .row {
+  border: 2px solid black;
+} */
+/* 
+.col {
+  border: 2px solid green;
+} */
+/* .container {
+  border: 2px solid red;
+} */
+/* 
 :root {
   --bg-color: #192a56;
   --second-color: #e48e00;
@@ -7,32 +86,19 @@
   --font-color: #ffffff;
 }
 
-* {
-  font-family: "Poppins", sans-serif;
-}
-
-body {
-  background-color: #ffffff;
-}
-
-
-.navbar-brand img {
-  height: 3rem;
-  width: auto;
-}
-
-ul li {
-  font-size: large;
+.navbar ul li a {
+  font-size: 18px;
   font-weight: 500;
   color: var(--bs-dark);
-  margin-right: 2.5rem;
+  margin-left: 30px;
+  border: 2px solid green;
 }
 
-.nav-link.active {
-  border-bottom: 4px solid var(--bg-color);
-  width: 100%;
-  align-items: center;
-  transition: all 0.5s;
+.row {
+  height: 100vh;
+}
+
+.home-content {
 }
 
 h1 {
@@ -64,6 +130,7 @@ p {
 }
 
 .btn {
+  border: 0px;
   border-radius: 100px;
   letter-spacing: 1px;
   font-weight: 400;
@@ -92,7 +159,7 @@ p {
   background-color: var(--second-color);
   color: var(--bg-color);
   transform: translateX(-100%);
-  transition: all 0.5s;
+  transition: all 0.2s;
   z-index: -1;
 }
 
@@ -122,10 +189,27 @@ p {
   color: var(--font-color);
   background-color: var(--bg-color);
   transform: translateX(-100%);
-  transition: all 0.5s;
+  transition: all 0.2s;
   z-index: -1;
 }
 
 .btn-secondary:hover::before {
   transform: translateX(0);
 }
+
+.about {
+  min-height: 100vh;
+  margin-top: 80px;
+}
+
+.experience {
+  min-height: 100vh;
+}
+
+.row {
+  border: 2px solid black;
+}
+
+.col {
+  border: 2px solid red;
+} */
